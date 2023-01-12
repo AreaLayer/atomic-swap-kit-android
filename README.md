@@ -1,6 +1,6 @@
 ## Overview
 
-This is the android library that allows Atomic Swap, decentralized crypto currency exchange, between 2 parties. The implementation based on Hash Time Locked Contracts.
+This is the android library that allows Atomic Swap, decentralized crypto yp exchange, between 2 parties. The implementation based on Hash Time Locked Contracts.
 
 
 ## Usage
@@ -13,7 +13,7 @@ The primary class to use is `SwapKit`.
 val swapKit = SwapKit(context)
 
 swapKit.registerSwapBlockchainCreator("BTC", BitcoinSwapBlockchainCreator(bitcoinKit))
-swapKit.registerSwapBlockchainCreator("BCH", BitcoinSwapBlockchainCreator(bitcoinCashKit))
+
 
 ```
 
